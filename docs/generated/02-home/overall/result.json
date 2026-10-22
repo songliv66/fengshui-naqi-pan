@@ -1,0 +1,265 @@
+{
+  "canvas": [
+    900,
+    660
+  ],
+  "outline": [
+    [
+      80.0,
+      80.0
+    ],
+    [
+      820.0,
+      80.0
+    ],
+    [
+      820.0,
+      360.0
+    ],
+    [
+      500.0,
+      360.0
+    ],
+    [
+      500.0,
+      580.0
+    ],
+    [
+      80.0,
+      580.0
+    ]
+  ],
+  "center": [
+    290.0,
+    330.0
+  ],
+  "area_px2": 299600.0,
+  "rectangle": [
+    [
+      80.0,
+      80.0
+    ],
+    [
+      500.0,
+      80.0
+    ],
+    [
+      500.0,
+      580.0
+    ],
+    [
+      80.0,
+      580.0
+    ]
+  ],
+  "rotation_deg": 0.0,
+  "north_angle": 0.0,
+  "building_outward_deg": 90.0,
+  "unit_outward_deg": 90.0,
+  "markers": [
+    {
+      "label": "ENTRY",
+      "xy": [
+        80.0,
+        440.0
+      ],
+      "kind": "entrance",
+      "sector": 2,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 242.354025,
+      "boundary_distance_deg": 5.145975,
+      "visible_in_crop": true
+    },
+    {
+      "label": "PILLOW-A",
+      "xy": [
+        205.0,
+        170.0
+      ],
+      "kind": "head",
+      "sector": 6,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 332.020526,
+      "boundary_distance_deg": 5.479474,
+      "visible_in_crop": true
+    },
+    {
+      "label": "PILLOW-B",
+      "xy": [
+        290.0,
+        170.0
+      ],
+      "kind": "head",
+      "sector": 1,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 0.0,
+      "boundary_distance_deg": 22.5,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-L",
+      "xy": [
+        130.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 6,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 327.380757,
+      "boundary_distance_deg": 10.119243,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-R",
+      "xy": [
+        350.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 1,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 13.495733,
+      "boundary_distance_deg": 9.004267,
+      "visible_in_crop": true
+    },
+    {
+      "label": "DRAIN",
+      "xy": [
+        760.0,
+        280.0
+      ],
+      "kind": "drain",
+      "sector": 3,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 83.927544,
+      "boundary_distance_deg": 16.427544,
+      "visible_in_crop": true
+    }
+  ],
+  "boundary_tolerance_deg": 3.0,
+  "opacity": 0.28,
+  "crop": [
+    0,
+    0,
+    900,
+    660
+  ],
+  "warnings": [
+    "Directions are scenarios/approximate; this is not a field measurement."
+  ],
+  "tool_version": "1.0.0",
+  "input_fingerprint": "fbd457fb6111caa2ce3238f9687d758658a9790beacaacd169955775c6fadea7",
+  "source_image_sha256": "ef7c80fe47ec81eb796c2b84af90a3fb145a1bb2a6c0f650f01f2fb8c10755d2",
+  "source_image_name": "source.png",
+  "center_mode": "main_rectangle",
+  "center_reason": "The complete left 420x500 rectangle is selected; the top-right extension is outside that rectangle. This is a declared convention, not a uniquely inferred rule.",
+  "direction_status": "scenario",
+  "parameters": {
+    "canvas": [
+      900,
+      660
+    ],
+    "outline": [
+      [
+        80,
+        80
+      ],
+      [
+        820,
+        80
+      ],
+      [
+        820,
+        360
+      ],
+      [
+        500,
+        360
+      ],
+      [
+        500,
+        580
+      ],
+      [
+        80,
+        580
+      ]
+    ],
+    "north_angle": 0,
+    "building_direction": {
+      "degrees": 90,
+      "sense": "outward"
+    },
+    "unit_direction": {
+      "degrees": 90,
+      "sense": "outward"
+    },
+    "direction_status": "scenario",
+    "center_mode": "main_rectangle",
+    "main_rectangle": [
+      80,
+      80,
+      500,
+      580
+    ],
+    "center_reason": "The complete left 420x500 rectangle is selected; the top-right extension is outside that rectangle. This is a declared convention, not a uniquely inferred rule.",
+    "markers": [
+      {
+        "label": "ENTRY",
+        "xy": [
+          80,
+          440
+        ],
+        "kind": "entrance"
+      },
+      {
+        "label": "PILLOW-A",
+        "xy": [
+          205,
+          170
+        ],
+        "kind": "head"
+      },
+      {
+        "label": "PILLOW-B",
+        "xy": [
+          290,
+          170
+        ],
+        "kind": "head"
+      },
+      {
+        "label": "WIN-L",
+        "xy": [
+          130,
+          80
+        ],
+        "kind": "window"
+      },
+      {
+        "label": "WIN-R",
+        "xy": [
+          350,
+          80
+        ],
+        "kind": "window"
+      },
+      {
+        "label": "DRAIN",
+        "xy": [
+          760,
+          280
+        ],
+        "kind": "drain"
+      }
+    ],
+    "title": "L-shaped home / selected main rectangle"
+  },
+  "scope": "Geometric classification only; red/blue meaning is a traditional convention, not a validated prediction."
+}

@@ -1,0 +1,102 @@
+{
+  "image": "source.png",
+  "canvas": [
+    900,
+    660
+  ],
+  "outline": [
+    [
+      80,
+      80
+    ],
+    [
+      820,
+      80
+    ],
+    [
+      820,
+      360
+    ],
+    [
+      500,
+      360
+    ],
+    [
+      500,
+      580
+    ],
+    [
+      80,
+      580
+    ]
+  ],
+  "north_angle": 0,
+  "building_direction": {
+    "degrees": 90,
+    "sense": "outward"
+  },
+  "unit_direction": {
+    "degrees": 90,
+    "sense": "outward"
+  },
+  "direction_status": "scenario",
+  "center_mode": "main_rectangle",
+  "main_rectangle": [
+    80,
+    80,
+    500,
+    580
+  ],
+  "center_reason": "The complete left 420x500 rectangle is selected; the top-right extension is outside that rectangle. This is a declared convention, not a uniquely inferred rule.",
+  "markers": [
+    {
+      "label": "ENTRY",
+      "xy": [
+        80,
+        440
+      ],
+      "kind": "entrance"
+    },
+    {
+      "label": "PILLOW-A",
+      "xy": [
+        205,
+        170
+      ],
+      "kind": "head"
+    },
+    {
+      "label": "PILLOW-B",
+      "xy": [
+        290,
+        170
+      ],
+      "kind": "head"
+    },
+    {
+      "label": "WIN-L",
+      "xy": [
+        130,
+        80
+      ],
+      "kind": "window"
+    },
+    {
+      "label": "WIN-R",
+      "xy": [
+        350,
+        80
+      ],
+      "kind": "window"
+    },
+    {
+      "label": "DRAIN",
+      "xy": [
+        760,
+        280
+      ],
+      "kind": "drain"
+    }
+  ],
+  "title": "L-shaped home / selected main rectangle"
+}

@@ -1,0 +1,253 @@
+{
+  "canvas": [
+    900,
+    660
+  ],
+  "outline": [
+    [
+      80.0,
+      80.0
+    ],
+    [
+      820.0,
+      80.0
+    ],
+    [
+      820.0,
+      360.0
+    ],
+    [
+      500.0,
+      360.0
+    ],
+    [
+      500.0,
+      580.0
+    ],
+    [
+      80.0,
+      580.0
+    ]
+  ],
+  "center": [
+    400.6542056074766,
+    297.10280373831773
+  ],
+  "area_px2": 299600.0,
+  "rectangle": null,
+  "rotation_deg": 0.0,
+  "north_angle": 0.0,
+  "building_outward_deg": 90.0,
+  "unit_outward_deg": 90.0,
+  "markers": [
+    {
+      "label": "ENTRY",
+      "xy": [
+        80.0,
+        440.0
+      ],
+      "kind": "entrance",
+      "sector": 2,
+      "color": "blue",
+      "status": "boundary_review",
+      "true_bearing_deg": 245.980208,
+      "boundary_distance_deg": 1.519792,
+      "visible_in_crop": true
+    },
+    {
+      "label": "PILLOW-A",
+      "xy": [
+        205.0,
+        170.0
+      ],
+      "kind": "head",
+      "sector": 6,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 303.008954,
+      "boundary_distance_deg": 10.508954,
+      "visible_in_crop": true
+    },
+    {
+      "label": "PILLOW-B",
+      "xy": [
+        290.0,
+        170.0
+      ],
+      "kind": "head",
+      "sector": 6,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 318.957553,
+      "boundary_distance_deg": 18.542447,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-L",
+      "xy": [
+        130.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 6,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 308.734525,
+      "boundary_distance_deg": 16.234525,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-R",
+      "xy": [
+        350.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 1,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 346.866757,
+      "boundary_distance_deg": 9.366757,
+      "visible_in_crop": true
+    },
+    {
+      "label": "DRAIN",
+      "xy": [
+        760.0,
+        280.0
+      ],
+      "kind": "drain",
+      "sector": 3,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 87.275105,
+      "boundary_distance_deg": 19.775105,
+      "visible_in_crop": true
+    }
+  ],
+  "boundary_tolerance_deg": 3.0,
+  "opacity": 0.28,
+  "crop": [
+    0,
+    0,
+    900,
+    660
+  ],
+  "warnings": [
+    "Directions are scenarios/approximate; this is not a field measurement.",
+    "At least one marker is near a sector boundary. Check direction and coordinates."
+  ],
+  "tool_version": "1.0.0",
+  "input_fingerprint": "a087cea90f5643bf99c994acb612d2add4f311c71734ed3d927961ff931aff0f",
+  "source_image_sha256": "ef7c80fe47ec81eb796c2b84af90a3fb145a1bb2a6c0f650f01f2fb8c10755d2",
+  "source_image_name": "source.png",
+  "center_mode": "centroid",
+  "center_reason": "User-selected whole-polygon area centroid. Kept separate from the main-rectangle method; conclusions must be recomputed.",
+  "direction_status": "scenario",
+  "parameters": {
+    "canvas": [
+      900,
+      660
+    ],
+    "outline": [
+      [
+        80,
+        80
+      ],
+      [
+        820,
+        80
+      ],
+      [
+        820,
+        360
+      ],
+      [
+        500,
+        360
+      ],
+      [
+        500,
+        580
+      ],
+      [
+        80,
+        580
+      ]
+    ],
+    "north_angle": 0,
+    "building_direction": {
+      "degrees": 90,
+      "sense": "outward"
+    },
+    "unit_direction": {
+      "degrees": 90,
+      "sense": "outward"
+    },
+    "direction_status": "scenario",
+    "center_mode": "centroid",
+    "center_reason": "User-selected whole-polygon area centroid. Kept separate from the main-rectangle method; conclusions must be recomputed.",
+    "markers": [
+      {
+        "label": "ENTRY",
+        "xy": [
+          80,
+          440
+        ],
+        "kind": "entrance"
+      },
+      {
+        "label": "PILLOW-A",
+        "xy": [
+          205,
+          170
+        ],
+        "kind": "head"
+      },
+      {
+        "label": "PILLOW-B",
+        "xy": [
+          290,
+          170
+        ],
+        "kind": "head"
+      },
+      {
+        "label": "WIN-L",
+        "xy": [
+          130,
+          80
+        ],
+        "kind": "window"
+      },
+      {
+        "label": "WIN-R",
+        "xy": [
+          350,
+          80
+        ],
+        "kind": "window"
+      },
+      {
+        "label": "DRAIN",
+        "xy": [
+          760,
+          280
+        ],
+        "kind": "drain"
+      }
+    ],
+    "title": "L-shaped home / explicit area-centroid alternative"
+  },
+  "scope": "Geometric classification only; red/blue meaning is a traditional convention, not a validated prediction.",
+  "comparison": {
+    "previous_fingerprint": "fbd457fb6111caa2ce3238f9687d758658a9790beacaacd169955775c6fadea7",
+    "previous_conclusions_invalidated": true,
+    "changed_inputs": [
+      "center_mode",
+      "center_reason",
+      "main_rectangle",
+      "title"
+    ]
+  }
+}

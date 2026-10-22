@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="660" viewBox="0 0 900 660"><rect width="900" height="660" fill="#f4f1e9"/><g font-family="sans-serif" fill="#26333d">
+<polygon points="80,80 820,80 820,360 500,360 500,580 80,580" fill="white" stroke="#26333d" stroke-width="6"/>
+<text x="40" y="38" font-size="18">02 / SYNTHETIC L-SHAPED HOME</text>
+<text x="40" y="635" font-size="15">SYNTHETIC / NOT TO SCALE / NO REAL ADDRESS</text>
+<text x="853" y="51" font-size="15">N</text>
+<path d="M860 120V70 M860 60L852 76H868Z" stroke="#26333d" fill="#26333d"/>
+<path d="M500 80 L500 360" stroke="#73808b" stroke-width="3"/>
+<path d="M80 360 L500 360" stroke="#73808b" stroke-width="3"/>
+<path d="M300 360 L300 580" stroke="#73808b" stroke-width="3"/>
+<rect x="150" y="150" width="200" height="100" rx="5" fill="#f5eadf" stroke="#7c8793" stroke-width="2"/>
+<text x="158" y="174" font-size="15">Bed</text>
+<rect x="160" y="420" width="100" height="80" rx="5" fill="#eef2f8" stroke="#7c8793" stroke-width="2"/>
+<text x="168" y="444" font-size="15">Sofa</text>
+<rect x="590" y="140" width="170" height="70" rx="5" fill="#e6f1ef" stroke="#7c8793" stroke-width="2"/>
+<text x="598" y="164" font-size="15">Kitchen</text>
+<rect x="610" y="260" width="150" height="50" rx="5" fill="#e6f1ef" stroke="#7c8793" stroke-width="2"/>
+<text x="618" y="284" font-size="15">Sink</text>
+</g></svg>

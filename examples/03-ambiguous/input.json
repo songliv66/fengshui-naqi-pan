@@ -1,0 +1,70 @@
+{
+  "image": "source.png",
+  "canvas": [
+    900,
+    660
+  ],
+  "outline": [
+    [
+      80,
+      80
+    ],
+    [
+      820,
+      80
+    ],
+    [
+      820,
+      580
+    ],
+    [
+      80,
+      580
+    ]
+  ],
+  "north_angle": 0,
+  "building_direction": {
+    "degrees": 0,
+    "sense": "outward"
+  },
+  "unit_direction": {
+    "degrees": 0,
+    "sense": "outward"
+  },
+  "direction_status": "scenario",
+  "center_mode": "main_rectangle",
+  "main_rectangle": [
+    80,
+    80,
+    820,
+    580
+  ],
+  "center_reason": "Same complete rectangle in both scenarios. Unit direction is unresolved; scenario values are not field measurements.",
+  "markers": [
+    {
+      "label": "ENTRY",
+      "xy": [
+        740,
+        580
+      ],
+      "kind": "entrance"
+    },
+    {
+      "label": "EDGE-WIN",
+      "xy": [
+        532.84271247,
+        130
+      ],
+      "kind": "window"
+    },
+    {
+      "label": "HEAD",
+      "xy": [
+        230,
+        400
+      ],
+      "kind": "head"
+    }
+  ],
+  "title": "Boundary / scenario A: unit outward 0 deg"
+}

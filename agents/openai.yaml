@@ -1,0 +1,4 @@
+interface:
+  display_name: "风水纳气盘"
+  short_description: "在原始平面图上复算门向、取心与红蓝分区，提供有条件的传统布局解释"
+  default_prompt: "请用 $fengshui-naqi-pan 核对这张平面图的门向与取心口径，实际生成叠盘并说明待确认条件。"

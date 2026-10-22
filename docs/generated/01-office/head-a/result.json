@@ -1,0 +1,164 @@
+{
+  "canvas": [
+    900,
+    660
+  ],
+  "outline": [
+    [
+      80.0,
+      80.0
+    ],
+    [
+      820.0,
+      80.0
+    ],
+    [
+      820.0,
+      580.0
+    ],
+    [
+      80.0,
+      580.0
+    ]
+  ],
+  "center": [
+    330.0,
+    285.0
+  ],
+  "area_px2": 370000.0,
+  "rectangle": null,
+  "rotation_deg": -90.0,
+  "north_angle": 0.0,
+  "building_outward_deg": 270.0,
+  "unit_outward_deg": 180.0,
+  "markers": [
+    {
+      "label": "ENTRY",
+      "xy": [
+        740.0,
+        580.0
+      ],
+      "kind": "entrance",
+      "sector": 2,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 125.735476,
+      "boundary_distance_deg": 13.235476,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-L",
+      "xy": [
+        180.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 8,
+      "color": "red",
+      "status": "classified",
+      "true_bearing_deg": 323.806793,
+      "boundary_distance_deg": 13.693207,
+      "visible_in_crop": true
+    },
+    {
+      "label": "WIN-R",
+      "xy": [
+        350.0,
+        80.0
+      ],
+      "kind": "window",
+      "sector": 3,
+      "color": "blue",
+      "status": "classified",
+      "true_bearing_deg": 5.572198,
+      "boundary_distance_deg": 16.927802,
+      "visible_in_crop": true
+    }
+  ],
+  "boundary_tolerance_deg": 3.0,
+  "opacity": 0.28,
+  "crop": [
+    0,
+    0,
+    900,
+    660
+  ],
+  "warnings": [
+    "Directions are scenarios/approximate; this is not a field measurement."
+  ],
+  "tool_version": "1.0.0",
+  "input_fingerprint": "73d2fee994ecbd75aa87b31a52443ae1283dd25ef8c073216c8644c14559228f",
+  "source_image_sha256": "79aec0baa6433cfd9aa8a7faa898e8c6750a07ef33f274caf2833e8ae4e7ec91",
+  "source_image_name": "source.png",
+  "center_mode": "explicit",
+  "center_reason": "Head A position; same rotation as the overall pan. Window endpoints and entry are checked separately.",
+  "direction_status": "scenario",
+  "parameters": {
+    "canvas": [
+      900,
+      660
+    ],
+    "outline": [
+      [
+        80,
+        80
+      ],
+      [
+        820,
+        80
+      ],
+      [
+        820,
+        580
+      ],
+      [
+        80,
+        580
+      ]
+    ],
+    "north_angle": 0,
+    "building_direction": {
+      "degrees": 270,
+      "sense": "outward"
+    },
+    "unit_direction": {
+      "degrees": 0,
+      "sense": "inward"
+    },
+    "direction_status": "scenario",
+    "center_mode": "explicit",
+    "center_reason": "Head A position; same rotation as the overall pan. Window endpoints and entry are checked separately.",
+    "markers": [
+      {
+        "label": "ENTRY",
+        "xy": [
+          740,
+          580
+        ],
+        "kind": "entrance"
+      },
+      {
+        "label": "WIN-L",
+        "xy": [
+          180,
+          80
+        ],
+        "kind": "window"
+      },
+      {
+        "label": "WIN-R",
+        "xy": [
+          350,
+          80
+        ],
+        "kind": "window"
+      }
+    ],
+    "title": "Office / head A verification",
+    "center": [
+      330,
+      285
+    ]
+  },
+  "scope": "Geometric classification only; red/blue meaning is a traditional convention, not a validated prediction."
+}
